@@ -1,77 +1,173 @@
-/* Template 1 style */
-#template-bg-1 {
-	background-image: url('../../images/template-bg-1.jpg');
+.nav li a{color:white;
+      margin-top:5px;}
+.nav li a.shortname{
+  background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 8px 0px 0px 14px;
+
+}
+.sidebar{
+  background-color: #6c757d!important;
+    height: 92.4vh !important;
+    /* position: absolute; */
+    margin-left: -15px;
+    height: 92.4vh;
+    /* position: absolute; */
+    margin-left: -15px;
+    min-height: 100%;
+    position: fixed;
+    left: 0px;
+    width: 16%;
+}
+.sidebar .sidebar-list{
+position: absolute;
+    top: 8%;
+    left: 40px;
+}
+.sidebar .navbar-nav li a{
+  color: white;
+    border-bottom: 1px solid #959696;
+}
+.form{
+  width: 79%;
+    border: 1px solid lightgray;
+    padding: 40px;
+}
+#alertBox{
+  display: none;
+    position: absolute;
+    left: 26%;
+    top: 58px;
+    z-index: 99;
+   
+   
+}
+.content-box{
+  width: 98%;
+    border: 1px solid lightgray;
+    padding: 40px;
+}
+#alertBox .success{
+  box-shadow: 0px 0px 15px #00000042;
+    
+    color: white;
+    background: green;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+#alertBox .fail{
+   box-shadow: 0px 0px 15px #00000042;
+  color: white;
+    background: red;
+    padding: 10px 5px;
+    font-size: 15px;
 }
 
-/* Template 2 style */
-.sidenav {
-	height: 100%;
-	overflow-x: hidden;
-	padding-top: 20px;
-	background-image: url('../../images/side-nav-bg.jpg');
+#confirmBox{
+position: fixed;
+    left: 40%;
+    top: 100px;
+    background: white;
+    box-shadow: 0px 0px 15px #0000003b;
+    z-index: 99;
+    padding: 11px;
+    width: 30%;
+    text-align: center;
+    height: 150px;
+    display: none;
 }
-
-.main {
-	padding: 0px 10px;
+#confirmBox p{
+color: #dc3545;
+    font-size: 20px;
+    position: relative;
+    top: 15px
 }
-
-/* Template 3 style */
-#template-bg-3 {
-	background-image: url('../../images/template-bg-3.jpg');
+#confirmBox button{
+border: 0px;
+    margin: 30px;
+    padding: 2px 30px;
+    background: #dc3545;
+    color: white;
 }
-
-/* Welcome page style */
-.bg-image {
-	background-image: url('../../images/welcome-page-bg.jpg');
-}
-
-/* Template 1 media queries begins */
-@media screen and (min-width:300px) and (max-width: 400px) {
-	.container {
-		width: 100% !important;
-		display: initial;
-	}
-}
-
-/* Template 2 media queries */
-@media screen and (max-height: 450px) {
-	.sidenav {
-		padding-top: 15px;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	.login-form {
-		margin-top: 10%;
-	}
-}
-
-@media screen and (max-width: 924px) {
-	.login {
-		width: 145px !important;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.main {
-		margin-left: 40%;
-	}
-	.sidenav {
-		width: 40%;
-		position: fixed;
-		z-index: 1;
-		top: 0;
-		left: 0;
-	}
-	.login-form {
-		margin-top: 80%;
-	}
-}
-
-/* Template 3 media queries */
-@media screen and (min-width:768px) and (max-width: 980px) {
-	.card {
-		width: 50% !important;
-		display: initial;
-	}
-}
+ #hide i{
+    font-size: 25px; margin: 10px 0px
+  }
+  .description li a{
+    padding: 0px 0px;
+    margin: 0px;
+    color: #ffc0c6;
+    border-bottom: 0px !important;
+  }
+  .sidebar-list i {
+  font-size: 15px;
+  }
+  .sidebar .description.navbar-nav li a{
+   color: #cccccc;
+   position: relative;
+    left: -5px;
+    margin-bottom: 8px;
+  }
+  label::after{
+    color: #ffffff !important;
+    background-color: #dc3545 !important;
+  }
+  .accordion-content .description {
+   
+    color: #4f4f4f;
+    cursor: pointer;
+    padding: 5px 5px 5px 25px;
+    max-width: 100%;
+    outline: none;
+    font-size: 14px;
+    margin: 4px 0px;
+    position: relative;}
+.accordion-content .description p {
+   margin:0px;
+   color:gray;}
+.accordion-content .title {
+   margin: 10px 0px;
+    font-weight: normal;
+   
+    padding: 0px 0px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;}
+    .accordion-content {
+    color: white;
+    border-bottom: 1px solid #959696;
+    position: relative;
+    }
+.accordion-content.show .description{
+  display:block;}
+.accordion-content.hide .description{
+  display:none;}
+.accordion-content.hide .title::after{
+ content: " ";
+   
+   
+    padding: 0px 0px;
+    font-size: 22px;
+   
+    font-size: 19px;
+    font-weight: normal;
+    /* float: right; */
+   position: absolute;
+    top: 6px;
+    right: -47px;}
+.accordion-content.show .title::after{
+ content: "  ";
+   
+    
+    padding: 0px 0px;
+    font-size: 22px;
+  
+    font-size: 19px;
+    font-weight: normal;
+  
+   position: absolute;
+    top: 6px;
+    right: -47px;}

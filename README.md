@@ -1,1 +1,1 @@
-# mrtg-admin
+# php-admin-panel-template
