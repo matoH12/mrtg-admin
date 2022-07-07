@@ -1,8 +1,8 @@
 <?php
 $hostname     = "localhost"; // Enter Your Host Name
-$username     = "root";      // Enter Your Table username
-$password     = "";          // Enter Your Table Password
-$databasename = "admin_panel"; // Enter Your database Name
+$username     = "matoh12";      // Enter Your Table username
+$password     = "Ffl8@1u27";          // Enter Your Table Password
+$databasename = "mh476nd_matoh12"; // Enter Your database Name
 
 
 $conn = new mysqli($hostname, $username, $password, $databasename);
