@@ -7,12 +7,10 @@
 
 <!--==== accordion list-3 =====-->
 <li class="nav-item accordion-content hide">
-<h3 class="title"><i class='fas fa-cog'></i> Website Setting</h3>
+<h3 class="title"><i class='fas fa-cog'></i> Locality administration</h3>
 <ul class="description navbar-nav">
 
-     <li class="nav-item">
-      <a class="nav-link content-link" href="dashboard.php?cat=locality-admin&subcat=switch">Locality administration</a>
-    </li>
+
       <li class="nav-item">
       <a class="nav-link content-link" href="dashboard.php?cat=locality-admin&subcat=building">Building</a>
     </li>
