@@ -11,13 +11,16 @@
 <ul class="description navbar-nav">
 
      <li class="nav-item">
-      <a class="nav-link content-link" href="dashboard.php?cat=website-setting&subcat=website-menu">Website Menu</a>
+      <a class="nav-link content-link" href="dashboard.php?cat=locality-admin&subcat=switch">Locality administration</a>
     </li>
       <li class="nav-item">
-      <a class="nav-link content-link" href="dashboard.php?cat=website-setting&subcat=website-setting">Website-Setting</a>
+      <a class="nav-link content-link" href="dashboard.php?cat=locality-admin&subcat=building">Building</a>
     </li>
       <li class="nav-item">
-      <a class="nav-link content-link" href="dashboard.php?cat=website-setting&subcat=theme-setting">Theme Setting</a>
+      <a class="nav-link content-link" href="dashboard.php?cat=locality-admin&subcat=locality">Locality</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link content-link" href="dashboard.php?cat=locality-admin&subcat=switch">Switch</a>
     </li>
 
 </ul>
