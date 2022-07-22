@@ -11,7 +11,7 @@ if(empty($email_address))
      
         $cat= !empty($_GET['cat'])?$_GET['cat']:'';
         $subcat = !empty($_GET['subcat'])?$_GET['subcat']:'';
-        if($cat=='locality-admin' && $subcat=='add-website-menu'){
+        if($cat=='locality-admin' && $subcat=='switch'  or $subcat=='locality' or $subcat=='build'){
           
           include('scripts/multilevel-script.php');
         }
