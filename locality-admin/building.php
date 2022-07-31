@@ -35,7 +35,7 @@
         <!----================form section start===============-->
         <div class="row">
             <div class="col">
-                <h4>Website Menu</h4>
+                <h4>Building Menu</h4>
             </div>
             <div class="col text-right">
                 <a href="dashboard.php?cat=website-setting&subcat=website-menu" class="btn btn-secondary content-link"> View</a>
